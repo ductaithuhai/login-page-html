@@ -1,0 +1,12 @@
+let left = document.getElementsByClassName("left");
+let imgWidth = left[0].width;
+let loginSpace = document.getElementById('loginSpace');
+let logoLabel = document.getElementsByClassName('logoLabel');
+logoLabel[0].style.width = `${imgWidth}px`;
+let fullWidth = 1920;
+let rightWidth = 1920 - imgWidth;
+loginSpace.style.width = `${rightWidth}px`;
+let top1 = document.getElementsByClassName("top");
+console.log(top);
+let topHeight = top1[0].height;
+top1[0].style.lineHeight = `${topHeight}px`;
